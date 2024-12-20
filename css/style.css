@@ -85,3 +85,27 @@ header {
 .social-icon img:hover {
   transform: scale(1.1);
 }
+
+
+.home {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.home-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.home h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.home p {
+  font-size: 1rem;
+  
