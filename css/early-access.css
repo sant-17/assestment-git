@@ -1,0 +1,67 @@
+body{
+    background-color:#1a2031;
+}
+.early-access-form {
+    margin: 5%;
+    max-width: 100%;
+    padding: 50px;
+    background: #f7efd6;
+    color: #3a2121;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .early-access-form h2 {
+    margin-bottom: 10px;
+    color: #745ed5;
+  }
+  
+  .early-access-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #1f183c;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: -10px;
+  }
+  
+  input, select, button {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #745ed5;
+    border-radius: 5px;
+  }
+  
+  input, select {
+    background-color: #f7efd6;
+    color: #7e7676;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    background-color: #d6c78f;
+    color: #2b2b2b;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #dbc26a;
+    transform: scale(1.02);
+  }
+  
